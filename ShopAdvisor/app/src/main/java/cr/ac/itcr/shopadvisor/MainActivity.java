@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
-                Intent i = new Intent(MainActivity.this,DashboardActivity.class);
+                Intent i = new Intent(MainActivity.this,DashboardTestActivity.class);
                 i.putExtra("messaje", "data1");
                 startActivity(i);
             }
